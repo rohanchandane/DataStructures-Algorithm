@@ -1,7 +1,5 @@
 # Data Structure & Algorithm
 
-# Untitled
-
 - What is DS?
     - Purpose: **To store, organise & perform operations on Data**
 
