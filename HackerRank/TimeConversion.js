@@ -7,17 +7,16 @@ function timeConversion(s) {
 	const seconds = partialSeconds.slice(0,2)
 
 	let parsedHours = parseInt(hours, 10);
-	console.log(hours, parsedHours)
 
 	if(amPm === "PM" && parsedHours !== 12) {
 		parsedHours += 12;
 	} else if (amPm === "AM" && parsedHours === 12) {
-		parsedHours = 0;
+		parsedHours = `00`;
 	}
 
 	return `${parsedHours.toString().padStart(2, '0')}:${minutes}:${seconds}`;
 }
 
 
-const time = timeConversion('05:05:07PM');
-console.log(time)  // 17:05:07
+const time = timeConversion('04:59:59AM');
+console.log(time)  // 04:59:59
