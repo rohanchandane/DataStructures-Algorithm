@@ -20,4 +20,4 @@ function timeConversion(s) {
 
 
 const time = timeConversion('05:05:07PM');
-console.log(time)
+console.log(time)  // 17:05:07
