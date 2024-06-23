@@ -1,3 +1,5 @@
+// Problem: lonelyinteger https://www.hackerrank.com/challenges/lonely-integer
+
 function lonelyinteger(a) {
     // Write your code here
     let counts = {};
