@@ -2,7 +2,6 @@
 
 - What is DS?
     - Purpose: **To store, organise & perform operations on Data**
-
     - Humans 👨🏼
         - Thinks in collections: eg collections of items
         - What is collection:
@@ -22,12 +21,12 @@
             - Save, read, update or delete
         - Who creates and perform operations
             - Computer programs
-                - What is?
+                - Computer program: What is it?
                     - Step by step instruction to solve problem
                     - for machine
                     - Written at implementation time
                     - Once written - Tested
-                - Computer programs (for computer 💻): composed of 2 things
+                - Computer programs (are for computer 💻): composed of 2 things
                     - **Data**
                         - Variable: data stored in variable
                         - Data types:
@@ -36,45 +35,57 @@
                             - 2 Types
                                 - **Primitive**: System/Compiler/Programming Language defined data types (eg: string, number)
                                 - **User Defined**: Data types created as per need of user (eg: Employee: id, name, designation)
-                    - **Operations**                            
+                        - **ADT**: Abstract Data Type
+                            - Data + their Operations
+                        - Characteristics of Data Types
+                            - **Linear**: Sequential storage in memory (vs Non Linear)
+                            - **Static**: Runtime modification not possible (vs Dynamic)
+                            - **Homogeneous**: Stores data of same type (vs Non Homogeneous)
+                        - Classification (Diagram)
+                    - **Operations**
                         - Traversing
                         - Searching
                         - Inserting
                         - Deleting
                         - Sorting
                         - Merging
-                    - ADT: Abstract Data Type
-                        - Data + their Operations
-                    - Characteristics of Data Types
-                        - **Linear**: Sequential storage in memory (vs Non Linear)
-                        - **Static**: Runtime modification not possible (vs Dynamic)
-                        - **Homogeneous**: Stores data of same type (vs Non Homogeneous)
-                    - Classification (Diagram)
-                    - Computer programs: needs 2 things to execute
-                        - **Space** (memory): to store data structure
-                        - **Time**: to perform operation
-                    
+                - Computer programs: needs 2 things to execute: Different operations needs different time & space
+                    - **Space** (memory): to store data structure
+                    - **Time**: to perform operation
             - Algorithm
-                - What is?
+                - Algorithm: What is it?
                     - Step by step instruction to solve problem
                     - for human
                     - Written at Design time
-                    - Once written - Analyse
-                - Algorithm (for humans 👨🏼):
+                    - Once written - Analysed
+                - Algorithm (are for humans 👨🏼):
                     - Why analyse?
                         - To find out: which logic is better (efficient)
-                    - What to analyse?
-                        - **Time**: how much time it takes? (Time Complexity)
+                    - Why efficient algorithm?
+                        - To minimise the cost
+                    - What affects the cost?
+                        - **Time**: how much time it takes to run? (Time Complexity)
                         - **Space**: how much memory it uses? (Space Complexity)
+                    - What is Rate of growth (for Algorithm)?
+                        - More input → More time to run = Rate of growth (ROG)
+                        - 3 scenarios for ROG,
+                            - time Increases
+                            - time Stays same
+                            - time Increase or Decrease (Varies)
                     - Methods to Analyse
-                        - https://www.bigocheatsheet.com/
-                        - Big O notation
-                            - `O(n^2)`
-                                - `O`: represented
-                                - `(n^2)` : describe time or space complexity. `n` input to the algo.
-                            - Common Big O functions - from Best to Worst
-                            - Good function: function that grows less as input increase
-                            - Bad function: function that grows a lot as input increase
+                        - When ROG varies, we perform following analysis
+                            - for Worst case:  (Big O)
+                                - Big O notation
+                                    - `O(n^2)`
+                                        - `(n^2)` : describe time or space complexity. `n` input to the algo.
+                                    - Common Big O functions - from Best to Worst
+                                        - https://www.bigocheatsheet.com/
+                                        
+                                    - Good function: function that grows less as input increase
+                                    - Bad function: function that grows a lot as input increase
+                               
+                            - for Average case: (Big Theta Θ)
+                            - for Best case: (Big Omega Ω)
                     
     - Data Structures
         - Array
@@ -84,20 +95,16 @@
             - Purpose
             - Operations
                 - Traverse
-                - Search
                 - Insert
                 - Delete
                 - Sort
+                - Search
                 - Merge
             - Languages Implementation
                 - JavaScript
                     - Traverse
                         
                         [https://github.com/rohanchandane/DataStructures-Algorithm/blob/main/Array/Traverse.js](https://github.com/rohanchandane/DataStructures-Algorithm/blob/main/Array/Traverse.js)
-                        
-                    - Search
-                        
-                        [https://github.com/rohanchandane/DataStructures-Algorithm/blob/main/Array/Search.js](https://github.com/rohanchandane/DataStructures-Algorithm/blob/main/Array/Search.js)
                         
                     - Insert
                         
@@ -110,6 +117,10 @@
                     - Sort
                         
                         [https://github.com/rohanchandane/DataStructures-Algorithm/blob/main/Array/Sort.js](https://github.com/rohanchandane/DataStructures-Algorithm/blob/main/Array/Sort.js)
+                        
+                    - Search
+                        
+                        [https://github.com/rohanchandane/DataStructures-Algorithm/blob/main/Array/Search.js](https://github.com/rohanchandane/DataStructures-Algorithm/blob/main/Array/Search.js)
                         
                     - Merge
                         
