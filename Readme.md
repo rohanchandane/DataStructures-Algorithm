@@ -1,9 +1,6 @@
 # Data Structure & Algorithm
 
 - What is DS?
-# Data Structure & Algorithm
-
-- What is DS?
     - Purpose: **To store, organise & perform operations on Data**
     - Humans 👨🏼
         - Thinks in collections: eg collections of items
