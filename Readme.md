@@ -93,10 +93,8 @@
                                         - `(n^2)` : describe time or space complexity. `n` input to the algo.
                                     - Common Big O functions - from Best to Worst
                                         - https://www.bigocheatsheet.com/
-                                        
                                     - Good function: function that grows less as input increase
                                     - Bad function: function that grows a lot as input increase
-                                - https://www.bigocheatsheet.com/
                             - for Average case: (Big Theta Θ)
                             - for Best case: (Big Omega Ω)
                                 
