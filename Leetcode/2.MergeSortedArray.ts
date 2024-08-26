@@ -8,8 +8,9 @@
     // sort the element
 
     for (let i = 0; i < nums2.length; i++) {
-        nums1[i + m] = nums2[i];
+        nums1[i + m] = nums2[i]; // becuase it need to update after existing num1 value
     }
+    
     // because it was sorting number as string, so need to sort it with it
     nums1.sort((a, b) => a - b);
 };
